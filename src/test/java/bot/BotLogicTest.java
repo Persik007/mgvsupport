@@ -18,7 +18,7 @@ class BotLogicTest {
     private final BotLogic botLogic = new BotLogic();
 
     /**
-     * Проверка стандартных ответов
+     * Старт диалога
      */
     @ParameterizedTest
     @MethodSource("provideCommand")
